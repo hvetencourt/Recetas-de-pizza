@@ -1,0 +1,51 @@
+@charset = "utf-8";	
+	*{
+		margin: 0px; padding: 0px;
+	}
+	h1{
+		color: brown; background-color: grey; padding: 16px; font-size: 30px; font-family: cursive; text-align: center;
+	}
+	
+	#titulo{
+		background-color: brown; color:grey;
+	}
+	.color_rojo{color:brown;}
+	.color_azul{color:blue;}
+	.imagenes_header{
+		width:400px; height:150px; box-shadow: inset -15px 15px 80px black;
+	}
+	header{
+		 display: flex; flex-direction: row; background-color: #dee032; margin: 0px;
+	}
+	ul{
+		font-size: 20px; }
+	a{color:white;}
+
+	.acomodar{
+		display: flex; flex-direction: row; justify-content: space-around; font-family: cursive;
+	}
+	li{
+		list-style: none;
+	}
+	main{background-color: brown; color: white; width: 80%; background-image: url(http://www.ivassoidinello.it/immagini/piz_pizza_gigante_farcita_8_1.png);}
+	
+	h3{color:black;}
+
+	#seccion1{padding: 20px; display: flex; flex-direction: row}
+	#seccion2{padding: 20px; display: flex; flex-direction: row}
+	article{border:3px dashed black; text-align: center; margin: 3px ; box-shadow: -15px 15px 80px black; background-color: brown; opacity: 0.9;}
+
+	.imagenes_body{width: 250px; height: 150px;}
+	p{text-align: justify; margin: 5px}
+
+
+	aside{background-color: grey; border: 3px solid black;
+		display: flex; flex-direction: column; width: 20%;}
+	div{display: flex; flex-direction: row;}
+	
+	footer{
+		background-color: grey; text-align: center; border: 3px solid black; border-radius: 0px;
+	}
+	nav{border: 3px solid black; border-radius: 10px; background-color: grey;  
+	}
+	a:hover{color:black;}
